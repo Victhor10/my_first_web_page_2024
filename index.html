@@ -2,19 +2,19 @@
 2 <html>
 3 <head>
 4
-<!— Basic →
+<! Basic →→→
 5
-<meta charset="utf-8" s
+<meta charset="utf-8" />
+6 <meta http-equiv="X-UA-Compatible" content="IE=edge" ▷
 7
-<!— Mobile Metas
+<!— Mobile Metas →
 8
 9
-6 <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" ▷
-<!— Site Metas
 10
-<meta name="keywords" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >> <!— Site Metas →→
+<meta name="keywords" content="">
 11 <meta name="description" content="
+s
 12
 <meta name="author" content="" />
 13
@@ -23,8 +23,166 @@
 15
 <style>
 16
+17
+body {
+18
+19
+20
+21
+margin: 0;
+font-family: Arial, sans-serif;
+display: flex;
+flex-direction: column;
+22
+align-items: center;
+23
+}
+24
+25
+.container {
+26
+max-width: 1000px;
+27
+width: 100%;
+28
+margin: 0 auto;
+29
+}
+30
+31
+header {
+32
+background-color: #333;
+33
+color: white;
+34
+35
+padding: 20px 0;
+text-align: center;
+36
+}
+37
+38
+39
+40
+41
+.header-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+42
+}
+43
+44
+.header-title {
+45
+font-size: 1.5rem;
+46
+padding-left: 20px;
+47
+}
+48
+49
+nav {
+50
+display: flex;
+51
+gap: 20px;
+52
+}
+53
+54
+nav a {
+55
+56
+57
+color: white;
+font-size: 1rem;
+text-decoration: none;
+58
+padding: 5px 10px;
+59
+border-radius: 5px;
+60
+transition: background-color 0.3s;
+61
+}
+62
+63
+nav a:hover {
+64
+background-color: #555;
+65
+}
+66
+67
+68
+69
+nav a.active {
+color: white;
+background-color: red;
+70
+}
+71
+72
+.footer-section {
+73
+max-width: 1000px;
+74
+width: 100%;
+75
+background-color: #333;
+76
+color: white;
+77
+text-align: center;
+78
+}
+79
+80
+.footer-section a {
+81
+color: red;
+82
+text-decoration: none;
+83
+}
+84
+85
+86
+.footer-section a:hover {
+text-decoration: underline;
+87
+}
+88
+89
 </style>
-17 </head>
-18 <body>
-19 </body>
-20 </html>
+90 </head>
+91 <body>
+92
+93
+94
+<header class="container">
+<div class="header-content">
+<div class="header-title">Webpage Header</div>
+95
+<nav>
+96
+<a href="#" class="active">Home</a>
+97
+<a href="#">About</a>
+98
+<a href="#">Contact</a>
+99
+</nav>
+100
+</div>
+101 </header>
+<footer class="footer-section">
+<p>&copy; 2024 All Rights Reserved. Design by <a href="#">Moisés Martínez</a></p>
+</footer>
+102
+103
+104
+105 </body>
+106 </html>
